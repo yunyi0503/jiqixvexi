@@ -1,0 +1,62 @@
+[
+  {
+    "model_name": "linear_C1_gammascale",
+    "kernel": "linear",
+    "C": 1,
+    "gamma": "scale",
+    "degree": null,
+    "accuracy": 0.8534,
+    "training_time_sec": 865.77,
+    "model_path": "models/svm_linear_C1_gammascale.pkl"
+  },
+  {
+    "model_name": "rbf_C0.1_gammascale",
+    "kernel": "rbf",
+    "C": 0.1,
+    "gamma": "scale",
+    "degree": null,
+    "accuracy": 0.8371,
+    "training_time_sec": 371.11,
+    "model_path": "models/svm_rbf_C0.1_gammascale.pkl"
+  },
+  {
+    "model_name": "rbf_C1_gammascale",
+    "kernel": "rbf",
+    "C": 1,
+    "gamma": "scale",
+    "degree": null,
+    "accuracy": 0.8805,
+    "training_time_sec": 228.76,
+    "model_path": "models/svm_rbf_C1_gammascale.pkl"
+  },
+  {
+    "model_name": "rbf_C10_gammascale",
+    "kernel": "rbf",
+    "C": 10,
+    "gamma": "scale",
+    "degree": null,
+    "accuracy": 0.8916,
+    "training_time_sec": 203.32,
+    "model_path": "models/svm_rbf_C10_gammascale.pkl"
+  },
+  {
+    "model_name": "poly_C1_gammascale_d3",
+    "kernel": "poly",
+    "C": 1,
+    "gamma": "scale",
+    "degree": 3,
+    "accuracy": 0.8696,
+    "training_time_sec": 221.61,
+    "model_path": "models/svm_poly_C1_gammascale_d3.pkl"
+  },
+  {
+    "model_name": "poly_C10_gammascale_d3",
+    "kernel": "poly",
+    "C": 10,
+    "gamma": "scale",
+    "degree": 3,
+    "accuracy": 0.8892,
+    "training_time_sec": 171.77,
+    "model_path": "models/svm_poly_C10_gammascale_d3.pkl"
+  }
+]
